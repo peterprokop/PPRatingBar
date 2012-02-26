@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A583C3B114FA1FE200C16B98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A583C3B014FA1FE200C16B98 /* UIKit.framework */; };
+		A583C3B314FA1FE200C16B98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A583C3B214FA1FE200C16B98 /* Foundation.framework */; };
+		A583C3B514FA1FE200C16B98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A583C3B414FA1FE200C16B98 /* CoreGraphics.framework */; };
+		A583C3BB14FA1FE200C16B98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A583C3B914FA1FE200C16B98 /* InfoPlist.strings */; };
+		A583C3BD14FA1FE200C16B98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A583C3BC14FA1FE200C16B98 /* main.m */; };
+		A583C3C114FA1FE200C16B98 /* PPRBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A583C3C014FA1FE200C16B98 /* PPRBAppDelegate.m */; };
+		A583C3C414FA1FE200C16B98 /* PPRBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A583C3C314FA1FE200C16B98 /* PPRBViewController.m */; };
+		A583C3C714FA1FE300C16B98 /* PPRBViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A583C3C514FA1FE200C16B98 /* PPRBViewController.xib */; };
+		A583C3D114FA214100C16B98 /* PPRatingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A583C3D014FA214100C16B98 /* PPRatingBar.m */; };
+		A583C3D614FA226600C16B98 /* starBig.png in Resources */ = {isa = PBXBuildFile; fileRef = A583C3D214FA226600C16B98 /* starBig.png */; };
+		A583C3D714FA226600C16B98 /* starBig@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A583C3D314FA226600C16B98 /* starBig@2x.png */; };
+		A583C3D814FA226600C16B98 /* starBigOff.png in Resources */ = {isa = PBXBuildFile; fileRef = A583C3D414FA226600C16B98 /* starBigOff.png */; };
+		A583C3D914FA226600C16B98 /* starBigOff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A583C3D514FA226600C16B98 /* starBigOff@2x.png */; };
+		A583C3DC14FA227800C16B98 /* starBigHalf@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A583C3DA14FA227800C16B98 /* starBigHalf@2x.png */; };
+		A583C3DD14FA227800C16B98 /* starBigHalf.png in Resources */ = {isa = PBXBuildFile; fileRef = A583C3DB14FA227800C16B98 /* starBigHalf.png */; };
+		A583C3E014FA229B00C16B98 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = A583C3DE14FA229B00C16B98 /* Background.png */; };
+		A583C3E114FA229B00C16B98 /* Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A583C3DF14FA229B00C16B98 /* Background@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A583C3AC14FA1FE200C16B98 /* PPRatingBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPRatingBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A583C3B014FA1FE200C16B98 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A583C3B214FA1FE200C16B98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A583C3B414FA1FE200C16B98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A583C3B814FA1FE200C16B98 /* PPRatingBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PPRatingBarController-Info.plist"; sourceTree = "<group>"; };
+		A583C3BA14FA1FE200C16B98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A583C3BC14FA1FE200C16B98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A583C3BE14FA1FE200C16B98 /* PPRatingBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPRatingBarController-Prefix.pch"; sourceTree = "<group>"; };
+		A583C3BF14FA1FE200C16B98 /* PPRBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPRBAppDelegate.h; sourceTree = "<group>"; };
+		A583C3C014FA1FE200C16B98 /* PPRBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPRBAppDelegate.m; sourceTree = "<group>"; };
+		A583C3C214FA1FE200C16B98 /* PPRBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPRBViewController.h; sourceTree = "<group>"; };
+		A583C3C314FA1FE200C16B98 /* PPRBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPRBViewController.m; sourceTree = "<group>"; };
+		A583C3C614FA1FE300C16B98 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PPRBViewController.xib; sourceTree = "<group>"; };
+		A583C3CF14FA214100C16B98 /* PPRatingBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRatingBar.h; sourceTree = "<group>"; };
+		A583C3D014FA214100C16B98 /* PPRatingBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPRatingBar.m; sourceTree = "<group>"; };
+		A583C3D214FA226600C16B98 /* starBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starBig.png; sourceTree = "<group>"; };
+		A583C3D314FA226600C16B98 /* starBig@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starBig@2x.png"; sourceTree = "<group>"; };
+		A583C3D414FA226600C16B98 /* starBigOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starBigOff.png; sourceTree = "<group>"; };
+		A583C3D514FA226600C16B98 /* starBigOff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starBigOff@2x.png"; sourceTree = "<group>"; };
+		A583C3DA14FA227800C16B98 /* starBigHalf@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "starBigHalf@2x.png"; sourceTree = "<group>"; };
+		A583C3DB14FA227800C16B98 /* starBigHalf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starBigHalf.png; sourceTree = "<group>"; };
+		A583C3DE14FA229B00C16B98 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		A583C3DF14FA229B00C16B98 /* Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A583C3A914FA1FE200C16B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A583C3B114FA1FE200C16B98 /* UIKit.framework in Frameworks */,
+				A583C3B314FA1FE200C16B98 /* Foundation.framework in Frameworks */,
+				A583C3B514FA1FE200C16B98 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A583C3A114FA1FE200C16B98 = {
+			isa = PBXGroup;
+			children = (
+				A583C3CE14FA212000C16B98 /* PPRatingBar */,
+				A583C3CD14FA20C800C16B98 /* Resources */,
+				A583C3B614FA1FE200C16B98 /* PPRatingBarController */,
+				A583C3AF14FA1FE200C16B98 /* Frameworks */,
+				A583C3AD14FA1FE200C16B98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A583C3AD14FA1FE200C16B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A583C3AC14FA1FE200C16B98 /* PPRatingBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A583C3AF14FA1FE200C16B98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A583C3B014FA1FE200C16B98 /* UIKit.framework */,
+				A583C3B214FA1FE200C16B98 /* Foundation.framework */,
+				A583C3B414FA1FE200C16B98 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A583C3B614FA1FE200C16B98 /* PPRatingBarController */ = {
+			isa = PBXGroup;
+			children = (
+				A583C3BF14FA1FE200C16B98 /* PPRBAppDelegate.h */,
+				A583C3C014FA1FE200C16B98 /* PPRBAppDelegate.m */,
+				A583C3C214FA1FE200C16B98 /* PPRBViewController.h */,
+				A583C3C314FA1FE200C16B98 /* PPRBViewController.m */,
+				A583C3C514FA1FE200C16B98 /* PPRBViewController.xib */,
+				A583C3B714FA1FE200C16B98 /* Supporting Files */,
+			);
+			path = PPRatingBarController;
+			sourceTree = "<group>";
+		};
+		A583C3B714FA1FE200C16B98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A583C3B814FA1FE200C16B98 /* PPRatingBarController-Info.plist */,
+				A583C3B914FA1FE200C16B98 /* InfoPlist.strings */,
+				A583C3BC14FA1FE200C16B98 /* main.m */,
+				A583C3BE14FA1FE200C16B98 /* PPRatingBarController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A583C3CD14FA20C800C16B98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A583C3D214FA226600C16B98 /* starBig.png */,
+				A583C3D314FA226600C16B98 /* starBig@2x.png */,
+				A583C3D414FA226600C16B98 /* starBigOff.png */,
+				A583C3D514FA226600C16B98 /* starBigOff@2x.png */,
+				A583C3DB14FA227800C16B98 /* starBigHalf.png */,
+				A583C3DA14FA227800C16B98 /* starBigHalf@2x.png */,
+				A583C3DE14FA229B00C16B98 /* Background.png */,
+				A583C3DF14FA229B00C16B98 /* Background@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A583C3CE14FA212000C16B98 /* PPRatingBar */ = {
+			isa = PBXGroup;
+			children = (
+				A583C3CF14FA214100C16B98 /* PPRatingBar.h */,
+				A583C3D014FA214100C16B98 /* PPRatingBar.m */,
+			);
+			name = PPRatingBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A583C3AB14FA1FE200C16B98 /* PPRatingBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A583C3CA14FA1FE300C16B98 /* Build configuration list for PBXNativeTarget "PPRatingBarController" */;
+			buildPhases = (
+				A583C3A814FA1FE200C16B98 /* Sources */,
+				A583C3A914FA1FE200C16B98 /* Frameworks */,
+				A583C3AA14FA1FE200C16B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPRatingBarController;
+			productName = PPRatingBarController;
+			productReference = A583C3AC14FA1FE200C16B98 /* PPRatingBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A583C3A314FA1FE200C16B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = A583C3A614FA1FE200C16B98 /* Build configuration list for PBXProject "PPRatingBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A583C3A114FA1FE200C16B98;
+			productRefGroup = A583C3AD14FA1FE200C16B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A583C3AB14FA1FE200C16B98 /* PPRatingBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A583C3AA14FA1FE200C16B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A583C3BB14FA1FE200C16B98 /* InfoPlist.strings in Resources */,
+				A583C3C714FA1FE300C16B98 /* PPRBViewController.xib in Resources */,
+				A583C3D614FA226600C16B98 /* starBig.png in Resources */,
+				A583C3D714FA226600C16B98 /* starBig@2x.png in Resources */,
+				A583C3D814FA226600C16B98 /* starBigOff.png in Resources */,
+				A583C3D914FA226600C16B98 /* starBigOff@2x.png in Resources */,
+				A583C3DC14FA227800C16B98 /* starBigHalf@2x.png in Resources */,
+				A583C3DD14FA227800C16B98 /* starBigHalf.png in Resources */,
+				A583C3E014FA229B00C16B98 /* Background.png in Resources */,
+				A583C3E114FA229B00C16B98 /* Background@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A583C3A814FA1FE200C16B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A583C3BD14FA1FE200C16B98 /* main.m in Sources */,
+				A583C3C114FA1FE200C16B98 /* PPRBAppDelegate.m in Sources */,
+				A583C3C414FA1FE200C16B98 /* PPRBViewController.m in Sources */,
+				A583C3D114FA214100C16B98 /* PPRatingBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A583C3B914FA1FE200C16B98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A583C3BA14FA1FE200C16B98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A583C3C514FA1FE200C16B98 /* PPRBViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A583C3C614FA1FE300C16B98 /* en */,
+			);
+			name = PPRBViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A583C3C814FA1FE300C16B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A583C3C914FA1FE300C16B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A583C3CB14FA1FE300C16B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPRatingBarController/PPRatingBarController-Prefix.pch";
+				INFOPLIST_FILE = "PPRatingBarController/PPRatingBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A583C3CC14FA1FE300C16B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPRatingBarController/PPRatingBarController-Prefix.pch";
+				INFOPLIST_FILE = "PPRatingBarController/PPRatingBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A583C3A614FA1FE200C16B98 /* Build configuration list for PBXProject "PPRatingBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A583C3C814FA1FE300C16B98 /* Debug */,
+				A583C3C914FA1FE300C16B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A583C3CA14FA1FE300C16B98 /* Build configuration list for PBXNativeTarget "PPRatingBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A583C3CB14FA1FE300C16B98 /* Debug */,
+				A583C3CC14FA1FE300C16B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A583C3A314FA1FE200C16B98 /* Project object */;
+}
